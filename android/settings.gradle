@@ -1,0 +1,10 @@
+rootProject.name = 'CallLog'
+include ':react-native-call-log'
+project(':react-native-call-log').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-call-log/android')
+include ':react-native-call-events'
+project(':react-native-call-events').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-call-events/android')
+include ':react-native-background-timer'
+project(':react-native-background-timer').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-background-timer/android')
+include ':react-native-maps'
+project(':react-native-maps').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-maps/lib/android')
+include ':app'
